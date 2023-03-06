@@ -1,1 +1,2 @@
-web: gunicorn multivender.wsgi --log-file
+
+web: python manage.py migrate && gunicorn multivender.wsgi
