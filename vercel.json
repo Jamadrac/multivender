@@ -15,7 +15,7 @@
 
 ],
 
-    "routes": [
+    "routes": [ 
         {
             "src": "/(.*)",
             "dest": "multivender/wsgi.py"
