@@ -1,0 +1,1 @@
+web: gunicorn multivender.wsgi --log-file
