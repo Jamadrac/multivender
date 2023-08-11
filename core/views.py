@@ -15,4 +15,4 @@ def frontpage(request):
 
 def about(request):
     #return httpresponse(dfghjklkjhgfd)
-    return render(request, 'core/about.html')                           
+    return render(request, 'core/about.html')
